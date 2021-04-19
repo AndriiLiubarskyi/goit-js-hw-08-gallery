@@ -34,4 +34,6 @@ function clickImg(event) {
 function closeButton() {
   closeButtonModalWindow.removeEventListener('click', closeButton);
   modalWindow.classList.remove('is-open');
+  modalWindowImage.src = '';
+  modalWindowImage.alt = '';
 };
